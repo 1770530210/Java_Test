@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE rootModel [
+        <!ELEMENT rootModel (backModel)*>
+        <!ELEMENT backModel (br|backGround|icon|subModel)*>
+        <!ATTLIST backModel
+                id CDATA #REQUIRED
+                width CDATA #REQUIRED
+                height CDATA #REQUIRED>
+        <!ELEMENT br (#PCDATA)>
+        <!ELEMENT backGround (#PCDATA)>
+        <!ATTLIST backGround
+                src CDATA #REQUIRED>
+        <!ELEMENT icon (#PCDATA)>
+        <!ATTLIST icon
+                name CDATA #REQUIRED
+                src CDATA #REQUIRED>
+        <!ELEMENT subModel (icon|subModel)*>
+        <!ATTLIST subModel
+                backColor CDATA #REQUIRED
+                foreColor CDATA #REQUIRED
+                height CDATA #REQUIRED
+                id CDATA #REQUIRED
+                text CDATA #REQUIRED
+                width CDATA #REQUIRED
+                x CDATA #REQUIRED
+                y CDATA #REQUIRED>
+        ]>
+<rootModel>
+    <backModel id="1" width="300" height="400">
+        <br/>
+        <backGround src="/src/image/1.png"/>
+        <icon src="/src/image/1.icon" name="1.icon"/>
+        <subModel id="" x="" y="" width="" height="" backColor="" foreColor="" text="">
+            <icon src="" name=""/>
+        </subModel>
+        <subModel id="1" x="" y="" width="" height="" backColor="" foreColor="" text="">
+            <icon src="" name="icon123"/>
+        </subModel>
+        <subModel id="" x="" y="" width="" height="" backColor="" foreColor="" text="">
+            <icon src="" name=""/>
+            <subModel id="" x="" y="" width="" height="" backColor="" foreColor="" text="">
+                <icon src="" name=""/>
+            </subModel>
+        </subModel>
+    </backModel>
+</rootModel>

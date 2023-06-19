@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootModel name="home.cui" objectName="rootModel">
+    <backModel objectName="backModel" name="backModel" width="500" height="400" backColor="#ffffff" foreColor="#ffffff"
+               backImage="">
+        <subModel objectName="" name="" x="" y="" width="" height="" backColor="" foreColor="" backImage="" text="">
+            <subModel objectName="" name="" x="" y="" width="" height="" backColor="" foreColor="" backImage="" text="">
+            </subModel>
+        </subModel>
+        <roundRecangleButton objectName="" name="" x="" y="" width="" height="">
+            <state name="default" backColor="" foreColor="" vertical="" fontSize="" fontColor="" radius="" alpha=""
+                   borderColor="" borderWidth="0" borderAlpha="" outlineColor="" outlineAlpha=""/>
+            <state name="focused" backColor="" foreColor="" vertical="" fontSize="" fontColor="#" radius="" alpha=""
+                   borderColor="" borderWidth="" borderAlpha="" outlineColor="" outlineAlpha=""/>
+            <state name="checked" backColor="" foreColor="" vertical="" fontSize="" fontColor="" radius="" alpha=""
+                   borderColor="" borderWidth="" borderAlpha="" outlineColor="" outlineAlpha=""/>
+            <state name="pressed" backColor="" foreColor="" vertical="" fontSize="" fontColor="" radius="" alpha=""
+                   borderColor="" borderWidth="" borderAlpha="" outlineColor="" outlineAlpha=""/>
+        </roundRecangleButton>
+        <imageButton objectName="" name="" x="" y="" width="" height="" text=""
+                     pressedPicture="" releasePicture="" checkedReleasePicture="" checkedRressedPicture="">
+            <state name="default" fontSize="" fontColor="" alpha="" filterColor="" filterAlpha=""/>
+            <state name="pressed" fontSize="" fontColor="" filterColor="" filterAlpha=""/>
+            <state name="checked" fontSize="" fontColor="" filterColor="" filterAlpha=""/>
+        </imageButton>
+        <checkedButton objectName="" name="" x="240" y="174"
+                       text="" fontSize="9" fontColor="#000000" fontSpcing="0"
+                       backGround="" foreGround="" alpha="" vertical="" rounderCorner="8">
+            <state name="default" innerBackGround="" innerForeGround="" innerAlpha=""
+                   innerRounderCorner="8" borderColor="" borderWidth=""></state>
+            <state name="pressed" innerBackGround="" innerForeGround="" innerAlpha=""
+                   innerRounderCorner="8" borderColor="" borderWidth=""></state>
+            <state name="checked" innerBackGround="" innerForeGround="" innerAlpha=""
+                   innerRounderCorner="8" borderColor="" borderWidth=""></state>
+            <state name="pressedAndChecked" innerBackGround="" innerForeGround="" innerAlpha=""
+                   innerRounderCorner="8" borderColor="" borderWidth=""></state>
+        </checkedButton>
+        <swithchModel objectName="" name="" x="" y="" width="" height=""
+                      innerAlpha="" innerBackColor="" innerForeColor="" vertical="" radius="">
+            <state name="" backColor="" foreColor="" alpha="" vertical="" radius=""></state>
+            <state name="" backColor="" foreColor="" alpha="" vertical="" radius=""></state>
+        </swithchModel>
+    </backModel>
+</rootModel>
